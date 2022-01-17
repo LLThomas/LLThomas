@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T04:59:25.816Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="o-_Zwivvh7MiGjFIF5sw" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T05:00:36.454Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="NVPPSf9DdLTfm_9yX54t" version="16.2.7" type="github">
   <diagram id="6KGzm6dKU-b07YVB4iIB" name="第 1 页">
     <mxGraphModel dx="981" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="3UUR5aaATVcO7qAqVhn3-4" value="" style="rounded=0;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="320" y="230" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3UUR5aaATVcO7qAqVhn3-5" value="检查数据是否处理完毕" style="strokeWidth=2;shape=mxgraph.flowchart.decision;" parent="1" vertex="1">
+        <mxCell id="3UUR5aaATVcO7qAqVhn3-5" value="检查数据是否处理完毕" style="strokeWidth=2;shape=mxgraph.flowchart.decision;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="315" y="400" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3UUR5aaATVcO7qAqVhn3-7" value="" style="rounded=0;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;" parent="1" vertex="1">
@@ -76,13 +76,13 @@
             <mxPoint x="560" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WgE0W5IysiF7U2wR4pa6-13" value="&lt;span&gt;调用SplitSeriesKey()函数分配多数据源数据&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="WgE0W5IysiF7U2wR4pa6-13" value="调用SplitSeriesKey()函数&#xa;分配多数据源数据" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="340" y="150" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WgE0W5IysiF7U2wR4pa6-14" value="&lt;span style=&quot;font-size: 12px&quot;&gt;调用DispatchAndSend()函数，分发批次数据到数据队列中&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="WgE0W5IysiF7U2wR4pa6-14" value="调用DispatchAndSend()函数，&#xa;分发批次数据到数据队列中" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="330" y="230" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WgE0W5IysiF7U2wR4pa6-15" value="&lt;span style=&quot;font-size: 12px&quot;&gt;调用查询算子函数处理数据队列中的数据&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="WgE0W5IysiF7U2wR4pa6-15" value="调用查询算子函数处理&#xa;数据队列中的数据" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="340" y="330" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
