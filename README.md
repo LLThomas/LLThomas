@@ -1,6 +1,5 @@
 ### Hi there 👋
 - 🔭 I’m currently learning LLM.
-- 👯 摸鱼小能手！
 <!--
 **LLThomas/LLThomas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
